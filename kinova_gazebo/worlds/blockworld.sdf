@@ -64,11 +64,16 @@
     <gravity>0 0 -0.1</gravity>
     <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
     <atmosphere type='adiabatic'/>
+    
+    
     <physics name='default_physics' default='0' type='ode'>
       <max_step_size>0.001</max_step_size>
       <real_time_factor>1</real_time_factor>
       <real_time_update_rate>1000</real_time_update_rate>
     </physics>
+    
+    
+
     <scene>
       <ambient>0.4 0.4 0.4 1</ambient>
       <background>0.7 0.7 0.7 1</background>
@@ -109,8 +114,8 @@
           <surface>
         <friction>
           <ode>
-            <mu>0.1</mu>
-            <mu2>0.1</mu2>
+            <mu>100</mu>
+            <mu2>100</mu2>
           </ode>
         </friction>
       </surface>
@@ -157,8 +162,8 @@
           <surface>
         <friction>
           <ode>
-            <mu>0.1</mu>
-            <mu2>0.1</mu2>
+            <mu>100</mu>
+            <mu2>100</mu2>
           </ode>
         </friction>
       </surface>
@@ -205,8 +210,8 @@
           <surface>
         <friction>
           <ode>
-            <mu>0.1</mu>
-            <mu2>0.1</mu2>
+            <mu>100</mu>
+            <mu2>100</mu2>
           </ode>
         </friction>
       </surface>
@@ -253,8 +258,8 @@
           <surface>
         	<friction>
           		<ode>
-            		<mu>0.1</mu>
-            		<mu2>0.1</mu2>
+            		<mu>100</mu>
+            		<mu2>100</mu2>
           		</ode>
         	</friction>
       	</surface>
@@ -301,8 +306,8 @@
           <surface>
         	<friction>
           		<ode>
-            		<mu>0.1</mu>
-            		<mu2>0.1</mu2>
+            		<mu>100</mu>
+            		<mu2>100</mu2>
           		</ode>
         	</friction>
       	</surface>
@@ -349,8 +354,8 @@
           <surface>
         	<friction>
           		<ode>
-            		<mu>0.1</mu>
-            		<mu2>0.1</mu2>
+            		<mu>100</mu>
+            		<mu2>100</mu2>
           		</ode>
         	</friction>
       	</surface>
@@ -397,8 +402,8 @@
           <surface>
         	<friction>
           		<ode>
-            		<mu>0.1</mu>
-            		<mu2>0.1</mu2>
+            		<mu>100</mu>
+            		<mu2>100</mu2>
           		</ode>
         	</friction>
       	</surface>
@@ -445,8 +450,8 @@
           <surface>
         	<friction>
           		<ode>
-            		<mu>0.1</mu>
-            		<mu2>0.1</mu2>
+            		<mu>100</mu>
+            		<mu2>100</mu2>
           		</ode>
         	</friction>
       	</surface>
@@ -493,8 +498,8 @@
           <surface>
         	<friction>
           		<ode>
-            		<mu>0.1</mu>
-            		<mu2>0.1</mu2>
+            		<mu>100</mu>
+            		<mu2>100</mu2>
           		</ode>
         	</friction>
       	</surface>
@@ -700,8 +705,8 @@
           <surface>
         	<friction>
           		<ode>
-            		<mu>0.1</mu>
-            		<mu2>0.1</mu2>
+            		<mu>100</mu>
+            		<mu2>100</mu2>
           		</ode>
         	</friction>
       	</surface>
@@ -748,8 +753,8 @@
           <surface>
         	<friction>
           		<ode>
-            		<mu>0.1</mu>
-            		<mu2>0.1</mu2>
+            		<mu>100</mu>
+            		<mu2>100</mu2>
           		</ode>
         	</friction>
       	</surface>
@@ -796,8 +801,8 @@
           <surface>
         	<friction>
           		<ode>
-            		<mu>0.1</mu>
-            		<mu2>0.1</mu2>
+            		<mu>100</mu>
+            		<mu2>100</mu2>
           		</ode>
         	</friction>
       	</surface>
@@ -844,8 +849,8 @@
           <surface>
         	<friction>
           		<ode>
-            		<mu>0.1</mu>
-            		<mu2>0.1</mu2>
+            		<mu>100</mu>
+            		<mu2>100</mu2>
           		</ode>
         	</friction>
       	</surface>
@@ -892,8 +897,8 @@
           <surface>
         	<friction>
           		<ode>
-            		<mu>0.1</mu>
-            		<mu2>0.1</mu2>
+            		<mu>100</mu>
+            		<mu2>100</mu2>
           		</ode>
         	</friction>
       	</surface>
