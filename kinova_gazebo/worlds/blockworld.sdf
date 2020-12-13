@@ -1,5 +1,6 @@
 <sdf version='1.6'>
   <world name='default'>
+  <plugin name="ros_link_attacher_plugin" filename="libgazebo_ros_link_attacher.so"/>
     <light name='sun' type='directional'>
       <cast_shadows>1</cast_shadows>
       <pose frame=''>0 0 10 0 -0 0</pose>
@@ -61,7 +62,7 @@
         <kinematic>0</kinematic>
       </link>
     </model>
-    <gravity>0 0 -0.1</gravity>
+    <gravity>0 0 -9.8</gravity>
     <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
     <atmosphere type='adiabatic'/>
     
@@ -94,7 +95,7 @@
       <pose frame=''>0.1 0.1 0.05 0 -0 0</pose>
       <link name='link'>
         <inertial>
-          <mass>1</mass>
+          <mass>10</mass>
           <inertia>
             <ixx>0.166667</ixx>
             <ixy>0</ixy>
@@ -142,7 +143,7 @@
       <pose frame=''>0.1 0.2 0.05 0 -0 0</pose>
       <link name='link'>
         <inertial>
-          <mass>1</mass>
+          <mass>10</mass>
           <inertia>
             <ixx>0.166667</ixx>
             <ixy>0</ixy>
@@ -190,7 +191,7 @@
       <pose frame=''>0.1 0.3 0.05 0 -0 0</pose>
       <link name='link'>
         <inertial>
-          <mass>1</mass>
+          <mass>10</mass>
           <inertia>
             <ixx>0.166667</ixx>
             <ixy>0</ixy>
@@ -238,7 +239,7 @@
       <pose frame=''>0.2 0.1 0.05 0 -0 0</pose>
       <link name='link'>
         <inertial>
-          <mass>1</mass>
+          <mass>10</mass>
           <inertia>
             <ixx>0.166667</ixx>
             <ixy>0</ixy>
@@ -286,7 +287,7 @@
       <pose frame=''>0.2 0.2 0.05 0 -0 0</pose>
       <link name='link'>
         <inertial>
-          <mass>1</mass>
+          <mass>10</mass>
           <inertia>
             <ixx>0.166667</ixx>
             <ixy>0</ixy>
@@ -334,7 +335,7 @@
       <pose frame=''>0.2 0.3 0.05 0 -0 0</pose>
       <link name='link'>
         <inertial>
-          <mass>1</mass>
+          <mass>10</mass>
           <inertia>
             <ixx>0.166667</ixx>
             <ixy>0</ixy>
@@ -382,7 +383,7 @@
       <pose frame=''>0.3 0.1 0.05 0 -0 0</pose>
       <link name='link'>
         <inertial>
-          <mass>1</mass>
+          <mass>10</mass>
           <inertia>
             <ixx>0.166667</ixx>
             <ixy>0</ixy>
@@ -430,7 +431,7 @@
       <pose frame=''>0.3 0.2 0.05 0 -0 0</pose>
       <link name='link'>
         <inertial>
-          <mass>1</mass>
+          <mass>10</mass>
           <inertia>
             <ixx>0.166667</ixx>
             <ixy>0</ixy>
@@ -478,7 +479,7 @@
       <pose frame=''>0.3 0.3 0.05 0 -0 0</pose>
       <link name='link'>
         <inertial>
-          <mass>1</mass>
+          <mass>10</mass>
           <inertia>
             <ixx>0.166667</ixx>
             <ixy>0</ixy>
@@ -685,7 +686,7 @@
       <pose frame=''>0.4 0.1 0.05 0 -0 0</pose>
       <link name='link'>
         <inertial>
-          <mass>1</mass>
+          <mass>10</mass>
           <inertia>
             <ixx>0.166667</ixx>
             <ixy>0</ixy>
@@ -733,7 +734,7 @@
       <pose frame=''>0.4 0.2 0.05 0 -0 0</pose>
       <link name='link'>
         <inertial>
-          <mass>1</mass>
+          <mass>10</mass>
           <inertia>
             <ixx>0.166667</ixx>
             <ixy>0</ixy>
@@ -781,7 +782,7 @@
       <pose frame=''>0.3 0.3 0.05 0 -0 0</pose>
       <link name='link'>
         <inertial>
-          <mass>1</mass>
+          <mass>10</mass>
           <inertia>
             <ixx>0.166667</ixx>
             <ixy>0</ixy>
@@ -829,7 +830,7 @@
       <pose frame=''>0.5 0.1 0.05 0 -0 0</pose>
       <link name='link'>
         <inertial>
-          <mass>1</mass>
+          <mass>10</mass>
           <inertia>
             <ixx>0.166667</ixx>
             <ixy>0</ixy>
@@ -877,7 +878,7 @@
       <pose frame=''>0.5 0.2 0.05 0 -0 0</pose>
       <link name='link'>
         <inertial>
-          <mass>1</mass>
+          <mass>10</mass>
           <inertia>
             <ixx>0.166667</ixx>
             <ixy>0</ixy>

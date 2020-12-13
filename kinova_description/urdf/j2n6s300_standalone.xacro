@@ -18,7 +18,7 @@
 
 
   <xacro:include filename="$(find kinova_description)/urdf/j2n6s300.xacro"/>
-
+  
   <link name="root"/>
 
   <!-- for gazebo -->
@@ -34,7 +34,7 @@
 
   <xacro:j2n6s300  base_parent="${robot_root}"/>
 
-
+	<!--
 	<gazebo>
 	   <plugin name="j2n6s300_grasp_fix" filename="libgazebo_grasp_fix.so">
 		    <arm>
@@ -56,7 +56,6 @@
 		   <contact_topic>__default_topic__</contact_topic>
 		</plugin>
 	</gazebo>
-
-
+	-->
 
 </robot>
