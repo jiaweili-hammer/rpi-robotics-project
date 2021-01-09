@@ -6,5 +6,5 @@ run the following commands to start
 
 2. roslaunch j2n6s300_moveit_config j2n6s300_gazebo_demo.launch
 
-3. rosrun test main.py
+3. rosrun test main_final.py
 
