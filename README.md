@@ -1,5 +1,7 @@
 rpi robotics team project, fall 2020
+
 Ubuntu 18.04 + ROS melodic + Gazebo 9
+
 run the following commands to start:
 
 ```
